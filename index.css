@@ -1,0 +1,35 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 414px;
+	height: 1030px;
+	background: linear-gradient(180deg, rgba(81,165,195,1) 0%, rgba(204,201,126,1) 61.36%, rgba(255,177,125,1) 100%);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#PngItem_5529205 {
+	filter: drop-shadow(3px 3px 3px rgba(255, 255, 255, 0.161));
+	position: absolute;
+	width: 201px;
+	height: 275px;
+	left: 107px;
+	top: 231px;
+	overflow: visible;
+}

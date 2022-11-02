@@ -1,0 +1,277 @@
+.mediaViewInfo {
+	--web-view-name: Homepage;
+	--web-view-id: Homepage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Homepage;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Homepage {
+	position: absolute;
+	width: 414px;
+	height: 1030px;
+	background: linear-gradient(180deg, rgba(81,165,195,1) 0%, rgba(204,201,126,1) 61.36%, rgba(255,177,125,1) 100%);
+	overflow: hidden;
+	--web-view-name: Homepage;
+	--web-view-id: Homepage;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_10 {
+	position: absolute;
+	width: 357px;
+	height: 145px;
+	left: 29px;
+	top: 234px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Burger.html;
+	cursor: pointer;
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 163px;
+	left: 0px;
+	top: 0px;
+}
+#pngwingcom {
+	position: absolute;
+	width: 132px;
+	height: 84.818px;
+	left: 217.5px;
+	top: 30.091px;
+	overflow: visible;
+}
+#Burger_r {
+	left: 57px;
+	top: 54px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Built Titling;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(108,43,0,1);
+	text-transform: uppercase;
+}
+#Group_5 {
+	position: absolute;
+	width: 357px;
+	height: 145px;
+	left: 29px;
+	top: 56px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Drink.html;
+	cursor: pointer;
+}
+#Rectangle_1 {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 163px;
+	left: 0px;
+	top: 0px;
+}
+#SeekPngcom_coca-cola-png_18847 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 37px;
+	height: 122.438px;
+	left: 263px;
+	top: 11.281px;
+	overflow: visible;
+}
+#Drink_v {
+	left: 57px;
+	top: 54px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Built Titling;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(108,43,0,1);
+	text-transform: uppercase;
+}
+#Group_11 {
+	position: absolute;
+	width: 357px;
+	height: 145px;
+	left: 29px;
+	top: 412px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Pizza.html;
+	cursor: pointer;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_3 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 163px;
+	left: 0px;
+	top: 0px;
+}
+#pngegg_1 {
+	position: absolute;
+	width: 132px;
+	height: 90.75px;
+	left: 217.5px;
+	top: 27.125px;
+	overflow: visible;
+}
+#Pizza_z {
+	left: 57px;
+	top: 54px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Built Titling;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(108,43,0,1);
+	text-transform: uppercase;
+}
+#Group_12 {
+	position: absolute;
+	width: 357px;
+	height: 145px;
+	left: 29px;
+	top: 590px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Pastry.html;
+	cursor: pointer;
+}
+#Rectangle_4 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 163px;
+	left: 0px;
+	top: 0px;
+}
+#Pastry_ {
+	left: 57px;
+	top: 54px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Built Titling;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(108,43,0,1);
+	text-transform: uppercase;
+}
+#pngegg_2 {
+	position: absolute;
+	width: 89px;
+	height: 112.2px;
+	left: 239px;
+	top: 16.4px;
+	overflow: visible;
+}
+#Group_13 {
+	position: absolute;
+	width: 358px;
+	height: 145.518px;
+	left: 29px;
+	top: 767px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Noddles.html;
+	cursor: pointer;
+}
+#Rectangle_5 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_5 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 376px;
+	height: 163.518px;
+	left: 0px;
+	top: 0px;
+}
+#pngwingcom_1 {
+	position: absolute;
+	width: 132px;
+	height: 74.518px;
+	left: 218px;
+	top: 30.919px;
+	overflow: visible;
+}
+#Noddle_ {
+	left: 57px;
+	top: 54px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Built Titling;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(108,43,0,1);
+	text-transform: uppercase;
+}
