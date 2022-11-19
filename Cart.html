@@ -4,653 +4,8 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Burger</title>
-<style id="applicationStylesheet" type="text/css">
-	.mediaViewInfo {
-		--web-view-name: Burger;
-		--web-view-id: Burger;
-		--web-scale-on-resize: true;
-		--web-enable-deep-linking: true;
-	}
-	:root {
-		--web-view-ids: Burger;
-	}
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		border: none;
-	}
-	#Burger {
-		position: absolute;
-		width: 414px;
-		height: 1030px;
-		background: linear-gradient(180deg, rgba(81,165,195,1) 0%, rgba(204,201,126,1) 61.36%, rgba(255,177,125,1) 100%);
-		overflow: hidden;
-		--web-view-name: Burger;
-		--web-view-id: Burger;
-		--web-scale-on-resize: true;
-		--web-enable-deep-linking: true;
-	}
-	@keyframes fadein {
-	
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	
-	}
-	#Component_4__9 {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 14px;
-		top: 56px;
-		overflow: visible;
-	}
-	#Group_4_g {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Component_2__1_g {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Rectangle_8_g {
-		fill: rgba(247,248,248,1);
-	}
-	.Rectangle_8_g {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 204px;
-		height: 304px;
-		left: 0px;
-		top: 0px;
-	}
-	#Cheeseburger_g {
-		left: 25px;
-		top: 173px;
-		position: absolute;
-		overflow: visible;
-		width: 113px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		color: rgba(0,0,0,1);
-		text-transform: capitalize;
-	}
-	#n_30__g {
-		left: 25px;
-		top: 190px;
-		position: absolute;
-		overflow: visible;
-		width: 60px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Integral CF;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 23px;
-		color: rgba(223,0,0,1);
-	}
-	#Component_3__1_g {
-		position: absolute;
-		width: 154px;
-		height: 31px;
-		left: 16px;
-		top: 238px;
-		overflow: visible;
-	}
-	#Rectangle_13_g {
-		fill: rgba(0,196,13,1);
-		stroke: rgba(0,196,13,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_13_g {
-		position: absolute;
-		overflow: visible;
-		width: 154px;
-		height: 31px;
-		left: 0px;
-		top: 0px;
-	}
-	#Icon_material-add-shopping-car_g {
-		fill: rgba(255,255,255,1);
-	}
-	.Icon_material-add-shopping-car_g {
-		overflow: visible;
-		position: absolute;
-		width: 21.96px;
-		height: 22.875px;
-		left: 14px;
-		top: 4.063px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Add_To_Cart_g {
-		left: 50px;
-		top: 6px;
-		position: absolute;
-		overflow: visible;
-		width: 85px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 16px;
-		color: rgba(255,255,255,1);
-		text-transform: capitalize;
-	}
-	#Component_4__10 {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 215px;
-		top: 56px;
-		overflow: visible;
-	}
-	#Group_4_hb {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Component_2__1_hc {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Rectangle_8_hd {
-		fill: rgba(247,248,248,1);
-	}
-	.Rectangle_8_hd {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 204px;
-		height: 304px;
-		left: 0px;
-		top: 0px;
-	}
-	#Big_Fish {
-		left: 25px;
-		top: 173px;
-		position: absolute;
-		overflow: visible;
-		width: 66px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		color: rgba(0,0,0,1);
-		text-transform: capitalize;
-	}
-	#n_90_ {
-		left: 25px;
-		top: 190px;
-		position: absolute;
-		overflow: visible;
-		width: 59px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Integral CF;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 23px;
-		color: rgba(223,0,0,1);
-	}
-	#Component_3__1_hg {
-		position: absolute;
-		width: 154px;
-		height: 31px;
-		left: 16px;
-		top: 238px;
-		overflow: visible;
-	}
-	#Rectangle_13_hh {
-		fill: rgba(0,196,13,1);
-		stroke: rgba(0,196,13,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_13_hh {
-		position: absolute;
-		overflow: visible;
-		width: 154px;
-		height: 31px;
-		left: 0px;
-		top: 0px;
-	}
-	#Icon_material-add-shopping-car_hi {
-		fill: rgba(255,255,255,1);
-	}
-	.Icon_material-add-shopping-car_hi {
-		overflow: visible;
-		position: absolute;
-		width: 21.96px;
-		height: 22.875px;
-		left: 14px;
-		top: 4.063px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Add_To_Cart_hj {
-		left: 50px;
-		top: 6px;
-		position: absolute;
-		overflow: visible;
-		width: 85px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 16px;
-		color: rgba(255,255,255,1);
-		text-transform: capitalize;
-	}
-	#Component_4__11 {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 215px;
-		top: 364px;
-		overflow: visible;
-	}
-	#Group_4_hl {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Component_2__1_hm {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Rectangle_8_hn {
-		fill: rgba(247,248,248,1);
-	}
-	.Rectangle_8_hn {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 204px;
-		height: 304px;
-		left: 0px;
-		top: 0px;
-	}
-	#Hamburger {
-		left: 25px;
-		top: 173px;
-		position: absolute;
-		overflow: visible;
-		width: 91px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		color: rgba(0,0,0,1);
-		text-transform: capitalize;
-	}
-	#n_40__hp {
-		left: 25px;
-		top: 190px;
-		position: absolute;
-		overflow: visible;
-		width: 60px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Integral CF;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 23px;
-		color: rgba(223,0,0,1);
-	}
-	#Component_3__1_hq {
-		position: absolute;
-		width: 154px;
-		height: 31px;
-		left: 16px;
-		top: 238px;
-		overflow: visible;
-	}
-	#Rectangle_13_hr {
-		fill: rgba(0,196,13,1);
-		stroke: rgba(0,196,13,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_13_hr {
-		position: absolute;
-		overflow: visible;
-		width: 154px;
-		height: 31px;
-		left: 0px;
-		top: 0px;
-	}
-	#Icon_material-add-shopping-car_hs {
-		fill: rgba(255,255,255,1);
-	}
-	.Icon_material-add-shopping-car_hs {
-		overflow: visible;
-		position: absolute;
-		width: 21.96px;
-		height: 22.875px;
-		left: 14px;
-		top: 4.063px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Add_To_Cart_ht {
-		left: 50px;
-		top: 6px;
-		position: absolute;
-		overflow: visible;
-		width: 85px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 16px;
-		color: rgba(255,255,255,1);
-		text-transform: capitalize;
-	}
-	#Component_4__12 {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 14px;
-		top: 364px;
-		overflow: visible;
-	}
-	#Group_4_hv {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Component_2__1_hw {
-		position: absolute;
-		width: 186px;
-		height: 286px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Rectangle_8_hx {
-		fill: rgba(247,248,248,1);
-	}
-	.Rectangle_8_hx {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 204px;
-		height: 304px;
-		left: 0px;
-		top: 0px;
-	}
-	#Bacon_King {
-		left: 25px;
-		top: 173px;
-		position: absolute;
-		overflow: visible;
-		width: 93px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		color: rgba(0,0,0,1);
-		text-transform: capitalize;
-	}
-	#n_30__hz {
-		left: 25px;
-		top: 190px;
-		position: absolute;
-		overflow: visible;
-		width: 61px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Integral CF;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 23px;
-		color: rgba(223,0,0,1);
-	}
-	#Component_3__1_h {
-		position: absolute;
-		width: 154px;
-		height: 31px;
-		left: 16px;
-		top: 238px;
-		overflow: visible;
-	}
-	#Rectangle_13_h {
-		fill: rgba(0,196,13,1);
-		stroke: rgba(0,196,13,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_13_h {
-		position: absolute;
-		overflow: visible;
-		width: 154px;
-		height: 31px;
-		left: 0px;
-		top: 0px;
-	}
-	#Icon_material-add-shopping-car_h {
-		fill: rgba(255,255,255,1);
-	}
-	.Icon_material-add-shopping-car_h {
-		overflow: visible;
-		position: absolute;
-		width: 21.96px;
-		height: 22.875px;
-		left: 14px;
-		top: 4.063px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Add_To_Cart_h {
-		left: 50px;
-		top: 6px;
-		position: absolute;
-		overflow: visible;
-		width: 85px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 16px;
-		color: rgba(255,255,255,1);
-		text-transform: capitalize;
-	}
-	#Cheeseburger_h {
-		position: absolute;
-		width: 130px;
-		height: 130px;
-		left: 42px;
-		top: 83px;
-		overflow: visible;
-	}
-	#Big_Fish_h {
-		position: absolute;
-		width: 130px;
-		height: 130px;
-		left: 243px;
-		top: 83px;
-		overflow: visible;
-	}
-	#Bacon_King_h {
-		position: absolute;
-		width: 130px;
-		height: 130px;
-		left: 42px;
-		top: 385px;
-		overflow: visible;
-	}
-	#Hamburger_h {
-		position: absolute;
-		width: 127px;
-		height: 128px;
-		left: 245px;
-		top: 387px;
-		overflow: visible;
-	}
-	#Component_7__4 {
-		position: absolute;
-		width: 66px;
-		height: 72px;
-		left: 329px;
-		top: 945px;
-		overflow: visible;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: Cart.html;
-		cursor: pointer;
-	}
-	#Component_6__1_h {
-		position: absolute;
-		width: 66px;
-		height: 66px;
-		left: 0px;
-		top: 6px;
-		overflow: visible;
-	}
-	#Group_3_ia {
-		position: absolute;
-		width: 66px;
-		height: 66px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Ellipse_1_ib {
-		fill: rgba(255,255,255,1);
-	}
-	.Ellipse_1_ib {
-		position: absolute;
-		overflow: visible;
-		width: 66px;
-		height: 66px;
-		left: 0px;
-		top: 0px;
-	}
-	#Icon_ionic-ios-cart_ic {
-		position: absolute;
-		width: 27.577px;
-		height: 25.471px;
-		left: 19.212px;
-		top: 20.264px;
-		overflow: visible;
-	}
-	#Path_1_id {
-		fill: rgba(108,43,0,1);
-	}
-	.Path_1_id {
-		overflow: visible;
-		position: absolute;
-		width: 3.183px;
-		height: 3.183px;
-		left: 5.829px;
-		top: 22.288px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Path_2_ie {
-		fill: rgba(108,43,0,1);
-	}
-	.Path_2_ie {
-		overflow: visible;
-		position: absolute;
-		width: 3.183px;
-		height: 3.183px;
-		left: 20.717px;
-		top: 22.288px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Path_3_if {
-		fill: rgba(108,43,0,1);
-	}
-	.Path_3_if {
-		overflow: visible;
-		position: absolute;
-		width: 27.577px;
-		height: 21.221px;
-		left: 0px;
-		top: 0px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Ellipse_2_ig {
-		fill: rgba(255,0,0,1);
-	}
-	.Ellipse_2_ig {
-		position: absolute;
-		overflow: visible;
-		width: 25px;
-		height: 25px;
-		left: 41px;
-		top: 0px;
-	}
-	#n__ih {
-		left: 50px;
-		top: 4px;
-		position: absolute;
-		overflow: visible;
-		width: 9px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 14px;
-		color: rgba(255,255,255,1);
-	}
-</style>
+<title>Cart</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Cart.css"/>
 <script id="applicationScript">
 ///////////////////////////////////////
 // INITIALIZATION
@@ -3563,161 +2918,164 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="Burger">
-	<div id="Component_4__9" class="Component_4___9">
-		<div id="Group_4_g">
-			<div id="Component_2__1_g" class="Component_2___1">
-				<svg class="Rectangle_8_g">
-					<rect id="Rectangle_8_g" rx="10" ry="10" x="0" y="0" width="186" height="286">
+<div id="Cart">
+	<svg class="Rectangle_15">
+		<rect id="Rectangle_15" rx="0" ry="0" x="0" y="0" width="414" height="143">
+		</rect>
+	</svg>
+	<div id="Repeat_Grid_2">
+		<div id="Group" class="">
+			<div id="Component_5__2" class="Component_5___2">
+				<svg class="Rectangle_14">
+					<rect id="Rectangle_14" rx="10" ry="10" x="0" y="0" width="357" height="110">
 					</rect>
 				</svg>
-			</div>
-			<div id="Cheeseburger_g">
-				<span>Cheeseburger</span>
-			</div>
-			<div id="n_30__g">
-				<span>₹330</span><br/>
-			</div>
-			<div id="Component_3__1_g" class="Component_3___1">
-				<svg class="Rectangle_13_g">
-					<rect id="Rectangle_13_g" rx="8" ry="8" x="0" y="0" width="154" height="31">
-					</rect>
-				</svg>
-				<svg class="Icon_material-add-shopping-car_g" viewBox="1.5 1.5 21.96 22.875">
-					<path id="Icon_material-add-shopping-car_g" d="M 12.39285755157471 10.2142858505249 L 14.5714282989502 10.2142858505249 L 14.5714282989502 6.946428298950195 L 17.83928680419922 6.946428298950195 L 17.83928680419922 4.767857074737549 L 14.5714282989502 4.767857074737549 L 14.5714282989502 1.5 L 12.39285755157471 1.5 L 12.39285755157471 4.767857074737549 L 9.125 4.767857074737549 L 9.125 6.946428298950195 L 12.39285755157471 6.946428298950195 L 12.39285755157471 10.2142858505249 Z M 8.035714149475098 20.01785850524902 C 6.837500095367432 20.01785850524902 5.868035793304443 20.99821472167969 5.868035793304443 22.19643020629883 C 5.868035793304443 23.39464378356934 6.837500095367432 24.37500190734863 8.035714149475098 24.37500190734863 C 9.233927726745605 24.37500190734863 10.2142858505249 23.39464378356934 10.2142858505249 22.19643020629883 C 10.2142858505249 20.99821472167969 9.233927726745605 20.01785850524902 8.035714149475098 20.01785850524902 Z M 18.9285717010498 20.01785850524902 C 17.7303581237793 20.01785850524902 16.76089477539062 20.99821472167969 16.76089477539062 22.19643020629883 C 16.76089477539062 23.39464378356934 17.7303581237793 24.37500190734863 18.9285717010498 24.37500190734863 C 20.12678718566895 24.37500190734863 21.10714340209961 23.39464378356934 21.10714340209961 22.19643020629883 C 21.10714340209961 20.99821472167969 20.12678527832031 20.01785850524902 18.9285717010498 20.01785850524902 Z M 8.220892906188965 16.47768020629883 L 8.253571510314941 16.34696388244629 L 9.233928680419922 14.5714282989502 L 17.3491096496582 14.5714282989502 C 18.16607284545898 14.5714282989502 18.88500022888184 14.12482070922852 19.25535774230957 13.44946384429932 L 23.46000289916992 5.813570976257324 L 21.56464385986328 4.767857074737549 L 21.55375099182129 4.767857074737549 L 20.35553741455078 6.946428298950195 L 17.3491096496582 12.39285755157471 L 9.702322006225586 12.39285755157471 L 9.560714721679688 12.0987491607666 L 7.120713710784912 6.946428298950195 L 6.085892677307129 4.767857074737549 L 5.06196403503418 2.589285612106323 L 1.5 2.589285612106323 L 1.5 4.767857074737549 L 3.678571224212646 4.767857074737549 L 7.59999942779541 13.03553581237793 L 6.129463672637939 15.70428562164307 C 5.955178260803223 16.00928688049316 5.857142448425293 16.36875152587891 5.857142448425293 16.75 C 5.857142448425293 17.94821548461914 6.837499618530273 18.9285717010498 8.035714149475098 18.9285717010498 L 21.10714340209961 18.9285717010498 L 21.10714340209961 16.75 L 8.49321460723877 16.75 C 8.351607322692871 16.75 8.220892906188965 16.63017845153809 8.220892906188965 16.47768020629883 Z">
+				<img id="Cheeseburger" src="Cheeseburger.png" srcset="Cheeseburger.png 1x, Cheeseburger@2x.png 2x">
+					
+				<div id="Cheeseburger_v">
+					<span>Cheeseburger</span>
+				</div>
+				<div id="n_30_">
+					<span>₹330</span><br/>
+				</div>
+				<svg class="Icon_awesome-plus-square" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-plus-square" d="M 14.0625 2.25 L 1.6875 2.25 C 0.755859375 2.25 0 3.005859375 0 3.9375 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.6875 18 L 14.0625 18 C 14.994140625 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.9375 C 15.75 3.005859375 14.994140625 2.25 14.0625 2.25 Z M 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.515625 11.53125 L 9.28125 11.53125 L 9.28125 14.765625 C 9.28125 14.99765586853027 9.091405868530273 15.1875 8.859375 15.1875 L 6.890625 15.1875 C 6.658593654632568 15.1875 6.46875 14.99765586853027 6.46875 14.765625 L 6.46875 11.53125 L 3.234375 11.53125 C 3.002343654632568 11.53125 2.8125 11.34140586853027 2.8125 11.109375 L 2.8125 9.140625 C 2.8125 8.908594131469727 3.002343654632568 8.71875 3.234375 8.71875 L 6.46875 8.71875 L 6.46875 5.484375 C 6.46875 5.252343654632568 6.658593654632568 5.0625 6.890625 5.0625 L 8.859375 5.0625 C 9.091405868530273 5.0625 9.28125 5.252343654632568 9.28125 5.484375 L 9.28125 8.71875 L 12.515625 8.71875 C 12.74765586853027 8.71875 12.9375 8.908594131469727 12.9375 9.140625 L 12.9375 11.109375 Z">
 					</path>
 				</svg>
-				<div id="Add_To_Cart_g">
-					<span>Add To Cart</span>
+				<svg class="Icon_awesome-minus-square" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-minus-square" d="M 14.06249904632568 2.25 L 1.68749988079071 2.25 C 0.755859375 2.25 0 3.005859136581421 0 3.937499761581421 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.68749988079071 18 L 14.06249904632568 18 C 14.99413967132568 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.937499761581421 C 15.75 3.005859136581421 14.99413967132568 2.25 14.06249904632568 2.25 Z M 3.234375 11.53125 C 3.002343654632568 11.53125 2.812499761581421 11.34140586853027 2.812499761581421 11.109375 L 2.812499761581421 9.140625 C 2.812499761581421 8.90859317779541 3.002343654632568 8.71875 3.234375 8.71875 L 12.51562404632568 8.71875 C 12.74765586853027 8.71875 12.9375 8.90859317779541 12.9375 9.140625 L 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.51562404632568 11.53125 L 3.234375 11.53125 Z">
+					</path>
+				</svg>
+				<div id="n_">
+					<span>2</span>
+				</div>
+			</div>
+		</div>
+		<div id="Group_" class="">
+			<div id="Component_5__2_" class="Component_5___2">
+				<svg class="Rectangle_14_">
+					<rect id="Rectangle_14_" rx="10" ry="10" x="0" y="0" width="357" height="110">
+					</rect>
+				</svg>
+				<img id="Cheeseburger_" src="Cheeseburger_.png" srcset="Cheeseburger_.png 1x, Cheeseburger_@2x.png 2x">
+					
+				<div id="Cheeseburger_ba">
+					<span>Cheeseburger</span>
+				</div>
+				<div id="n_30__">
+					<span>₹330</span><br/>
+				</div>
+				<svg class="Icon_awesome-plus-square_" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-plus-square_" d="M 14.0625 2.25 L 1.6875 2.25 C 0.755859375 2.25 0 3.005859375 0 3.9375 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.6875 18 L 14.0625 18 C 14.994140625 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.9375 C 15.75 3.005859375 14.994140625 2.25 14.0625 2.25 Z M 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.515625 11.53125 L 9.28125 11.53125 L 9.28125 14.765625 C 9.28125 14.99765586853027 9.091405868530273 15.1875 8.859375 15.1875 L 6.890625 15.1875 C 6.658593654632568 15.1875 6.46875 14.99765586853027 6.46875 14.765625 L 6.46875 11.53125 L 3.234375 11.53125 C 3.002343654632568 11.53125 2.8125 11.34140586853027 2.8125 11.109375 L 2.8125 9.140625 C 2.8125 8.908594131469727 3.002343654632568 8.71875 3.234375 8.71875 L 6.46875 8.71875 L 6.46875 5.484375 C 6.46875 5.252343654632568 6.658593654632568 5.0625 6.890625 5.0625 L 8.859375 5.0625 C 9.091405868530273 5.0625 9.28125 5.252343654632568 9.28125 5.484375 L 9.28125 8.71875 L 12.515625 8.71875 C 12.74765586853027 8.71875 12.9375 8.908594131469727 12.9375 9.140625 L 12.9375 11.109375 Z">
+					</path>
+				</svg>
+				<svg class="Icon_awesome-minus-square_" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-minus-square_" d="M 14.06249904632568 2.25 L 1.68749988079071 2.25 C 0.755859375 2.25 0 3.005859136581421 0 3.937499761581421 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.68749988079071 18 L 14.06249904632568 18 C 14.99413967132568 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.937499761581421 C 15.75 3.005859136581421 14.99413967132568 2.25 14.06249904632568 2.25 Z M 3.234375 11.53125 C 3.002343654632568 11.53125 2.812499761581421 11.34140586853027 2.812499761581421 11.109375 L 2.812499761581421 9.140625 C 2.812499761581421 8.90859317779541 3.002343654632568 8.71875 3.234375 8.71875 L 12.51562404632568 8.71875 C 12.74765586853027 8.71875 12.9375 8.90859317779541 12.9375 9.140625 L 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.51562404632568 11.53125 L 3.234375 11.53125 Z">
+					</path>
+				</svg>
+				<div id="n__">
+					<span>2</span>
+				</div>
+			</div>
+		</div>
+		<div id="Group_ba" class="">
+			<div id="Component_5__2_ba" class="Component_5___2">
+				<svg class="Rectangle_14_bb">
+					<rect id="Rectangle_14_bb" rx="10" ry="10" x="0" y="0" width="357" height="110">
+					</rect>
+				</svg>
+				<img id="Cheeseburger_bc" src="Cheeseburger_bc.png" srcset="Cheeseburger_bc.png 1x, Cheeseburger_bc@2x.png 2x">
+					
+				<div id="Cheeseburger_bd">
+					<span>Cheeseburger</span>
+				</div>
+				<div id="n_30__be">
+					<span>₹330</span><br/>
+				</div>
+				<svg class="Icon_awesome-plus-square_bf" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-plus-square_bf" d="M 14.0625 2.25 L 1.6875 2.25 C 0.755859375 2.25 0 3.005859375 0 3.9375 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.6875 18 L 14.0625 18 C 14.994140625 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.9375 C 15.75 3.005859375 14.994140625 2.25 14.0625 2.25 Z M 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.515625 11.53125 L 9.28125 11.53125 L 9.28125 14.765625 C 9.28125 14.99765586853027 9.091405868530273 15.1875 8.859375 15.1875 L 6.890625 15.1875 C 6.658593654632568 15.1875 6.46875 14.99765586853027 6.46875 14.765625 L 6.46875 11.53125 L 3.234375 11.53125 C 3.002343654632568 11.53125 2.8125 11.34140586853027 2.8125 11.109375 L 2.8125 9.140625 C 2.8125 8.908594131469727 3.002343654632568 8.71875 3.234375 8.71875 L 6.46875 8.71875 L 6.46875 5.484375 C 6.46875 5.252343654632568 6.658593654632568 5.0625 6.890625 5.0625 L 8.859375 5.0625 C 9.091405868530273 5.0625 9.28125 5.252343654632568 9.28125 5.484375 L 9.28125 8.71875 L 12.515625 8.71875 C 12.74765586853027 8.71875 12.9375 8.908594131469727 12.9375 9.140625 L 12.9375 11.109375 Z">
+					</path>
+				</svg>
+				<svg class="Icon_awesome-minus-square_bg" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-minus-square_bg" d="M 14.06249904632568 2.25 L 1.68749988079071 2.25 C 0.755859375 2.25 0 3.005859136581421 0 3.937499761581421 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.68749988079071 18 L 14.06249904632568 18 C 14.99413967132568 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.937499761581421 C 15.75 3.005859136581421 14.99413967132568 2.25 14.06249904632568 2.25 Z M 3.234375 11.53125 C 3.002343654632568 11.53125 2.812499761581421 11.34140586853027 2.812499761581421 11.109375 L 2.812499761581421 9.140625 C 2.812499761581421 8.90859317779541 3.002343654632568 8.71875 3.234375 8.71875 L 12.51562404632568 8.71875 C 12.74765586853027 8.71875 12.9375 8.90859317779541 12.9375 9.140625 L 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.51562404632568 11.53125 L 3.234375 11.53125 Z">
+					</path>
+				</svg>
+				<div id="n__bh">
+					<span>2</span>
+				</div>
+			</div>
+		</div>
+		<div id="Group_bi" class="">
+			<div id="Component_5__2_bj" class="Component_5___2">
+				<svg class="Rectangle_14_bk">
+					<rect id="Rectangle_14_bk" rx="10" ry="10" x="0" y="0" width="357" height="110">
+					</rect>
+				</svg>
+				<img id="Cheeseburger_bl" src="Cheeseburger_bl.png" srcset="Cheeseburger_bl.png 1x, Cheeseburger_bl@2x.png 2x">
+					
+				<div id="Cheeseburger_bm">
+					<span>Cheeseburger</span>
+				</div>
+				<div id="n_30__bn">
+					<span>₹330</span><br/>
+				</div>
+				<svg class="Icon_awesome-plus-square_bo" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-plus-square_bo" d="M 14.0625 2.25 L 1.6875 2.25 C 0.755859375 2.25 0 3.005859375 0 3.9375 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.6875 18 L 14.0625 18 C 14.994140625 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.9375 C 15.75 3.005859375 14.994140625 2.25 14.0625 2.25 Z M 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.515625 11.53125 L 9.28125 11.53125 L 9.28125 14.765625 C 9.28125 14.99765586853027 9.091405868530273 15.1875 8.859375 15.1875 L 6.890625 15.1875 C 6.658593654632568 15.1875 6.46875 14.99765586853027 6.46875 14.765625 L 6.46875 11.53125 L 3.234375 11.53125 C 3.002343654632568 11.53125 2.8125 11.34140586853027 2.8125 11.109375 L 2.8125 9.140625 C 2.8125 8.908594131469727 3.002343654632568 8.71875 3.234375 8.71875 L 6.46875 8.71875 L 6.46875 5.484375 C 6.46875 5.252343654632568 6.658593654632568 5.0625 6.890625 5.0625 L 8.859375 5.0625 C 9.091405868530273 5.0625 9.28125 5.252343654632568 9.28125 5.484375 L 9.28125 8.71875 L 12.515625 8.71875 C 12.74765586853027 8.71875 12.9375 8.908594131469727 12.9375 9.140625 L 12.9375 11.109375 Z">
+					</path>
+				</svg>
+				<svg class="Icon_awesome-minus-square_bp" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-minus-square_bp" d="M 14.06249904632568 2.25 L 1.68749988079071 2.25 C 0.755859375 2.25 0 3.005859136581421 0 3.937499761581421 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.68749988079071 18 L 14.06249904632568 18 C 14.99413967132568 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.937499761581421 C 15.75 3.005859136581421 14.99413967132568 2.25 14.06249904632568 2.25 Z M 3.234375 11.53125 C 3.002343654632568 11.53125 2.812499761581421 11.34140586853027 2.812499761581421 11.109375 L 2.812499761581421 9.140625 C 2.812499761581421 8.90859317779541 3.002343654632568 8.71875 3.234375 8.71875 L 12.51562404632568 8.71875 C 12.74765586853027 8.71875 12.9375 8.90859317779541 12.9375 9.140625 L 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.51562404632568 11.53125 L 3.234375 11.53125 Z">
+					</path>
+				</svg>
+				<div id="n__bq">
+					<span>2</span>
+				</div>
+			</div>
+		</div>
+		<div id="Group_br" class="">
+			<div id="Component_5__2_bs" class="Component_5___2">
+				<svg class="Rectangle_14_bt">
+					<rect id="Rectangle_14_bt" rx="10" ry="10" x="0" y="0" width="357" height="110">
+					</rect>
+				</svg>
+				<img id="Cheeseburger_bu" src="Cheeseburger_bu.png" srcset="Cheeseburger_bu.png 1x, Cheeseburger_bu@2x.png 2x">
+					
+				<div id="Cheeseburger_bv">
+					<span>Cheeseburger</span>
+				</div>
+				<div id="n_30__bw">
+					<span>₹330</span><br/>
+				</div>
+				<svg class="Icon_awesome-plus-square_bx" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-plus-square_bx" d="M 14.0625 2.25 L 1.6875 2.25 C 0.755859375 2.25 0 3.005859375 0 3.9375 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.6875 18 L 14.0625 18 C 14.994140625 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.9375 C 15.75 3.005859375 14.994140625 2.25 14.0625 2.25 Z M 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.515625 11.53125 L 9.28125 11.53125 L 9.28125 14.765625 C 9.28125 14.99765586853027 9.091405868530273 15.1875 8.859375 15.1875 L 6.890625 15.1875 C 6.658593654632568 15.1875 6.46875 14.99765586853027 6.46875 14.765625 L 6.46875 11.53125 L 3.234375 11.53125 C 3.002343654632568 11.53125 2.8125 11.34140586853027 2.8125 11.109375 L 2.8125 9.140625 C 2.8125 8.908594131469727 3.002343654632568 8.71875 3.234375 8.71875 L 6.46875 8.71875 L 6.46875 5.484375 C 6.46875 5.252343654632568 6.658593654632568 5.0625 6.890625 5.0625 L 8.859375 5.0625 C 9.091405868530273 5.0625 9.28125 5.252343654632568 9.28125 5.484375 L 9.28125 8.71875 L 12.515625 8.71875 C 12.74765586853027 8.71875 12.9375 8.908594131469727 12.9375 9.140625 L 12.9375 11.109375 Z">
+					</path>
+				</svg>
+				<svg class="Icon_awesome-minus-square_by" viewBox="0 2.25 15.75 15.75">
+					<path id="Icon_awesome-minus-square_by" d="M 14.06249904632568 2.25 L 1.68749988079071 2.25 C 0.755859375 2.25 0 3.005859136581421 0 3.937499761581421 L 0 16.3125 C 0 17.244140625 0.755859375 18 1.68749988079071 18 L 14.06249904632568 18 C 14.99413967132568 18 15.75 17.244140625 15.75 16.3125 L 15.75 3.937499761581421 C 15.75 3.005859136581421 14.99413967132568 2.25 14.06249904632568 2.25 Z M 3.234375 11.53125 C 3.002343654632568 11.53125 2.812499761581421 11.34140586853027 2.812499761581421 11.109375 L 2.812499761581421 9.140625 C 2.812499761581421 8.90859317779541 3.002343654632568 8.71875 3.234375 8.71875 L 12.51562404632568 8.71875 C 12.74765586853027 8.71875 12.9375 8.90859317779541 12.9375 9.140625 L 12.9375 11.109375 C 12.9375 11.34140586853027 12.74765586853027 11.53125 12.51562404632568 11.53125 L 3.234375 11.53125 Z">
+					</path>
+				</svg>
+				<div id="n__bz">
+					<span>2</span>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="Component_4__10" class="Component_4___10">
-		<div id="Group_4_hb">
-			<div id="Component_2__1_hc" class="Component_2___1">
-				<svg class="Rectangle_8_hd">
-					<rect id="Rectangle_8_hd" rx="10" ry="10" x="0" y="0" width="186" height="286">
-					</rect>
-				</svg>
-			</div>
-			<div id="Big_Fish">
-				<span>Big Fish</span>
-			</div>
-			<div id="n_90_">
-				<span>₹290</span><br/>
-			</div>
-			<div id="Component_3__1_hg" class="Component_3___1">
-				<svg class="Rectangle_13_hh">
-					<rect id="Rectangle_13_hh" rx="8" ry="8" x="0" y="0" width="154" height="31">
-					</rect>
-				</svg>
-				<svg class="Icon_material-add-shopping-car_hi" viewBox="1.5 1.5 21.96 22.875">
-					<path id="Icon_material-add-shopping-car_hi" d="M 12.39285755157471 10.2142858505249 L 14.5714282989502 10.2142858505249 L 14.5714282989502 6.946428298950195 L 17.83928680419922 6.946428298950195 L 17.83928680419922 4.767857074737549 L 14.5714282989502 4.767857074737549 L 14.5714282989502 1.5 L 12.39285755157471 1.5 L 12.39285755157471 4.767857074737549 L 9.125 4.767857074737549 L 9.125 6.946428298950195 L 12.39285755157471 6.946428298950195 L 12.39285755157471 10.2142858505249 Z M 8.035714149475098 20.01785850524902 C 6.837500095367432 20.01785850524902 5.868035793304443 20.99821472167969 5.868035793304443 22.19643020629883 C 5.868035793304443 23.39464378356934 6.837500095367432 24.37500190734863 8.035714149475098 24.37500190734863 C 9.233927726745605 24.37500190734863 10.2142858505249 23.39464378356934 10.2142858505249 22.19643020629883 C 10.2142858505249 20.99821472167969 9.233927726745605 20.01785850524902 8.035714149475098 20.01785850524902 Z M 18.9285717010498 20.01785850524902 C 17.7303581237793 20.01785850524902 16.76089477539062 20.99821472167969 16.76089477539062 22.19643020629883 C 16.76089477539062 23.39464378356934 17.7303581237793 24.37500190734863 18.9285717010498 24.37500190734863 C 20.12678718566895 24.37500190734863 21.10714340209961 23.39464378356934 21.10714340209961 22.19643020629883 C 21.10714340209961 20.99821472167969 20.12678527832031 20.01785850524902 18.9285717010498 20.01785850524902 Z M 8.220892906188965 16.47768020629883 L 8.253571510314941 16.34696388244629 L 9.233928680419922 14.5714282989502 L 17.3491096496582 14.5714282989502 C 18.16607284545898 14.5714282989502 18.88500022888184 14.12482070922852 19.25535774230957 13.44946384429932 L 23.46000289916992 5.813570976257324 L 21.56464385986328 4.767857074737549 L 21.55375099182129 4.767857074737549 L 20.35553741455078 6.946428298950195 L 17.3491096496582 12.39285755157471 L 9.702322006225586 12.39285755157471 L 9.560714721679688 12.0987491607666 L 7.120713710784912 6.946428298950195 L 6.085892677307129 4.767857074737549 L 5.06196403503418 2.589285612106323 L 1.5 2.589285612106323 L 1.5 4.767857074737549 L 3.678571224212646 4.767857074737549 L 7.59999942779541 13.03553581237793 L 6.129463672637939 15.70428562164307 C 5.955178260803223 16.00928688049316 5.857142448425293 16.36875152587891 5.857142448425293 16.75 C 5.857142448425293 17.94821548461914 6.837499618530273 18.9285717010498 8.035714149475098 18.9285717010498 L 21.10714340209961 18.9285717010498 L 21.10714340209961 16.75 L 8.49321460723877 16.75 C 8.351607322692871 16.75 8.220892906188965 16.63017845153809 8.220892906188965 16.47768020629883 Z">
-					</path>
-				</svg>
-				<div id="Add_To_Cart_hj">
-					<span>Add To Cart</span>
-				</div>
-			</div>
+	<div id="Component_8__2" class="Component_8___2">
+		<div id="Component_3__4" class="Component_3___4">
+			<svg class="Rectangle_13">
+				<rect id="Rectangle_13" rx="8" ry="8" x="0" y="0" width="303" height="47">
+				</rect>
+			</svg>
+		</div>
+		<div id="CONFIRM">
+			<span>CONFIRM</span>
 		</div>
 	</div>
-	<div id="Component_4__11" class="Component_4___11">
-		<div id="Group_4_hl">
-			<div id="Component_2__1_hm" class="Component_2___1">
-				<svg class="Rectangle_8_hn">
-					<rect id="Rectangle_8_hn" rx="10" ry="10" x="0" y="0" width="186" height="286">
-					</rect>
-				</svg>
-			</div>
-			<div id="Hamburger">
-				<span>Hamburger</span>
-			</div>
-			<div id="n_40__hp">
-				<span>₹240</span><br/>
-			</div>
-			<div id="Component_3__1_hq" class="Component_3___1">
-				<svg class="Rectangle_13_hr">
-					<rect id="Rectangle_13_hr" rx="8" ry="8" x="0" y="0" width="154" height="31">
-					</rect>
-				</svg>
-				<svg class="Icon_material-add-shopping-car_hs" viewBox="1.5 1.5 21.96 22.875">
-					<path id="Icon_material-add-shopping-car_hs" d="M 12.39285755157471 10.2142858505249 L 14.5714282989502 10.2142858505249 L 14.5714282989502 6.946428298950195 L 17.83928680419922 6.946428298950195 L 17.83928680419922 4.767857074737549 L 14.5714282989502 4.767857074737549 L 14.5714282989502 1.5 L 12.39285755157471 1.5 L 12.39285755157471 4.767857074737549 L 9.125 4.767857074737549 L 9.125 6.946428298950195 L 12.39285755157471 6.946428298950195 L 12.39285755157471 10.2142858505249 Z M 8.035714149475098 20.01785850524902 C 6.837500095367432 20.01785850524902 5.868035793304443 20.99821472167969 5.868035793304443 22.19643020629883 C 5.868035793304443 23.39464378356934 6.837500095367432 24.37500190734863 8.035714149475098 24.37500190734863 C 9.233927726745605 24.37500190734863 10.2142858505249 23.39464378356934 10.2142858505249 22.19643020629883 C 10.2142858505249 20.99821472167969 9.233927726745605 20.01785850524902 8.035714149475098 20.01785850524902 Z M 18.9285717010498 20.01785850524902 C 17.7303581237793 20.01785850524902 16.76089477539062 20.99821472167969 16.76089477539062 22.19643020629883 C 16.76089477539062 23.39464378356934 17.7303581237793 24.37500190734863 18.9285717010498 24.37500190734863 C 20.12678718566895 24.37500190734863 21.10714340209961 23.39464378356934 21.10714340209961 22.19643020629883 C 21.10714340209961 20.99821472167969 20.12678527832031 20.01785850524902 18.9285717010498 20.01785850524902 Z M 8.220892906188965 16.47768020629883 L 8.253571510314941 16.34696388244629 L 9.233928680419922 14.5714282989502 L 17.3491096496582 14.5714282989502 C 18.16607284545898 14.5714282989502 18.88500022888184 14.12482070922852 19.25535774230957 13.44946384429932 L 23.46000289916992 5.813570976257324 L 21.56464385986328 4.767857074737549 L 21.55375099182129 4.767857074737549 L 20.35553741455078 6.946428298950195 L 17.3491096496582 12.39285755157471 L 9.702322006225586 12.39285755157471 L 9.560714721679688 12.0987491607666 L 7.120713710784912 6.946428298950195 L 6.085892677307129 4.767857074737549 L 5.06196403503418 2.589285612106323 L 1.5 2.589285612106323 L 1.5 4.767857074737549 L 3.678571224212646 4.767857074737549 L 7.59999942779541 13.03553581237793 L 6.129463672637939 15.70428562164307 C 5.955178260803223 16.00928688049316 5.857142448425293 16.36875152587891 5.857142448425293 16.75 C 5.857142448425293 17.94821548461914 6.837499618530273 18.9285717010498 8.035714149475098 18.9285717010498 L 21.10714340209961 18.9285717010498 L 21.10714340209961 16.75 L 8.49321460723877 16.75 C 8.351607322692871 16.75 8.220892906188965 16.63017845153809 8.220892906188965 16.47768020629883 Z">
-					</path>
-				</svg>
-				<div id="Add_To_Cart_ht">
-					<span>Add To Cart</span>
-				</div>
-			</div>
-		</div>
+	<div id="Total">
+		<span>Total:</span>
 	</div>
-	<div id="Component_4__12" class="Component_4___12">
-		<div id="Group_4_hv">
-			<div id="Component_2__1_hw" class="Component_2___1">
-				<svg class="Rectangle_8_hx">
-					<rect id="Rectangle_8_hx" rx="10" ry="10" x="0" y="0" width="186" height="286">
-					</rect>
-				</svg>
-			</div>
-			<div id="Bacon_King">
-				<span>Bacon King</span>
-			</div>
-			<div id="n_30__hz">
-				<span>₹430</span><br/>
-			</div>
-			<div id="Component_3__1_h" class="Component_3___1">
-				<svg class="Rectangle_13_h">
-					<rect id="Rectangle_13_h" rx="8" ry="8" x="0" y="0" width="154" height="31">
-					</rect>
-				</svg>
-				<svg class="Icon_material-add-shopping-car_h" viewBox="1.5 1.5 21.96 22.875">
-					<path id="Icon_material-add-shopping-car_h" d="M 12.39285755157471 10.2142858505249 L 14.5714282989502 10.2142858505249 L 14.5714282989502 6.946428298950195 L 17.83928680419922 6.946428298950195 L 17.83928680419922 4.767857074737549 L 14.5714282989502 4.767857074737549 L 14.5714282989502 1.5 L 12.39285755157471 1.5 L 12.39285755157471 4.767857074737549 L 9.125 4.767857074737549 L 9.125 6.946428298950195 L 12.39285755157471 6.946428298950195 L 12.39285755157471 10.2142858505249 Z M 8.035714149475098 20.01785850524902 C 6.837500095367432 20.01785850524902 5.868035793304443 20.99821472167969 5.868035793304443 22.19643020629883 C 5.868035793304443 23.39464378356934 6.837500095367432 24.37500190734863 8.035714149475098 24.37500190734863 C 9.233927726745605 24.37500190734863 10.2142858505249 23.39464378356934 10.2142858505249 22.19643020629883 C 10.2142858505249 20.99821472167969 9.233927726745605 20.01785850524902 8.035714149475098 20.01785850524902 Z M 18.9285717010498 20.01785850524902 C 17.7303581237793 20.01785850524902 16.76089477539062 20.99821472167969 16.76089477539062 22.19643020629883 C 16.76089477539062 23.39464378356934 17.7303581237793 24.37500190734863 18.9285717010498 24.37500190734863 C 20.12678718566895 24.37500190734863 21.10714340209961 23.39464378356934 21.10714340209961 22.19643020629883 C 21.10714340209961 20.99821472167969 20.12678527832031 20.01785850524902 18.9285717010498 20.01785850524902 Z M 8.220892906188965 16.47768020629883 L 8.253571510314941 16.34696388244629 L 9.233928680419922 14.5714282989502 L 17.3491096496582 14.5714282989502 C 18.16607284545898 14.5714282989502 18.88500022888184 14.12482070922852 19.25535774230957 13.44946384429932 L 23.46000289916992 5.813570976257324 L 21.56464385986328 4.767857074737549 L 21.55375099182129 4.767857074737549 L 20.35553741455078 6.946428298950195 L 17.3491096496582 12.39285755157471 L 9.702322006225586 12.39285755157471 L 9.560714721679688 12.0987491607666 L 7.120713710784912 6.946428298950195 L 6.085892677307129 4.767857074737549 L 5.06196403503418 2.589285612106323 L 1.5 2.589285612106323 L 1.5 4.767857074737549 L 3.678571224212646 4.767857074737549 L 7.59999942779541 13.03553581237793 L 6.129463672637939 15.70428562164307 C 5.955178260803223 16.00928688049316 5.857142448425293 16.36875152587891 5.857142448425293 16.75 C 5.857142448425293 17.94821548461914 6.837499618530273 18.9285717010498 8.035714149475098 18.9285717010498 L 21.10714340209961 18.9285717010498 L 21.10714340209961 16.75 L 8.49321460723877 16.75 C 8.351607322692871 16.75 8.220892906188965 16.63017845153809 8.220892906188965 16.47768020629883 Z">
-					</path>
-				</svg>
-				<div id="Add_To_Cart_h">
-					<span>Add To Cart</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<img id="Cheeseburger_h" src="Cheeseburger_h.png" srcset="Cheeseburger_h.png 1x, Cheeseburger_h@2x.png 2x">
-		
-	<img id="Big_Fish_h" src="Big_Fish_h.png" srcset="Big_Fish_h.png 1x, Big_Fish_h@2x.png 2x">
-		
-	<img id="Bacon_King_h" src="Bacon_King_h.png" srcset="Bacon_King_h.png 1x, Bacon_King_h@2x.png 2x">
-		
-	<img id="Hamburger_h" src="Hamburger_h.png" srcset="Hamburger_h.png 1x, Hamburger_h@2x.png 2x">
-		
-	<div onclick="application.goToTargetView(event)" id="Component_7__4" class="Component_7___4">
-		<div id="Component_6__1_h" class="Component_6___1">
-			<div id="Group_3_ia">
-				<svg class="Ellipse_1_ib">
-					<ellipse id="Ellipse_1_ib" rx="33" ry="33" cx="33" cy="33">
-					</ellipse>
-				</svg>
-				<div id="Icon_ionic-ios-cart_ic">
-					<svg class="Path_1_id" viewBox="9.563 28.125 3.183 3.183">
-						<path id="Path_1_id" d="M 12.74558544158936 29.71654319763184 C 12.74558544158936 30.59552383422852 12.03302764892578 31.30808258056641 11.15404224395752 31.30808258056641 C 10.27505779266357 31.30808258056641 9.562500953674316 30.59552383422852 9.562500953674316 29.7165412902832 C 9.562500953674316 28.83755874633789 10.27505779266357 28.125 11.15404224395752 28.125 C 12.03302764892578 28.125 12.74558544158936 28.83755874633789 12.74558544158936 29.7165412902832 Z">
-						</path>
-					</svg>
-					<svg class="Path_2_ie" viewBox="25.348 28.125 3.183 3.183">
-						<path id="Path_2_ie" d="M 28.53074073791504 29.71654319763184 C 28.5307445526123 30.59552383422852 27.81818580627441 31.30808258056641 26.9392032623291 31.30808258056641 C 26.06021690368652 31.30808258056641 25.3476619720459 30.59552383422852 25.3476619720459 29.7165412902832 C 25.3476619720459 28.83755874633789 26.06021690368652 28.125 26.9392032623291 28.125 C 27.81818580627441 28.125 28.5307445526123 28.83755874633789 28.5307445526123 29.7165412902832 Z">
-						</path>
-					</svg>
-					<svg class="Path_3_if" viewBox="3.382 4.493 27.577 21.221">
-						<path id="Path_3_if" d="M 30.9488639831543 9.022228240966797 C 30.90244674682617 8.863073348999023 30.76318168640137 8.75697135925293 30.60403633117676 8.743707656860352 L 9.00547981262207 6.654808521270752 C 8.819801330566406 6.634913921356201 8.594331741333008 6.515548229217529 8.508122444152832 6.343131065368652 C 8.256129264831543 5.872300148010254 8.09697437286377 5.607042789459229 7.699089527130127 5.109686374664307 C 7.188469409942627 4.486332893371582 6.226913452148438 4.506227016448975 4.462953090667725 4.492963790893555 C 3.866125345230103 4.486331939697266 3.382031440734863 4.837798118591309 3.382031440734863 5.427994728088379 C 3.382031440734863 6.004929065704346 3.839599847793579 6.363026142120361 4.416533470153809 6.363026142120361 C 4.993467330932617 6.363026142120361 5.829026699066162 6.396183490753174 6.140704154968262 6.489022731781006 C 6.452380657196045 6.581862449645996 6.70437479019165 7.092483043670654 6.797214508056641 7.536787986755371 C 6.797214508056641 7.54341983795166 6.797214508056641 7.550051689147949 6.80384635925293 7.556683540344238 C 6.817109107971191 7.63625955581665 6.936474800109863 8.233088493347168 6.936474800109863 8.239720344543457 L 9.589044570922852 22.27181243896484 C 9.748198509216309 23.23336791992188 10.07313919067383 24.02914047241211 10.5506010055542 24.63923263549805 C 11.10764026641846 25.35542297363281 11.84372901916504 25.71352386474609 12.73233890533447 25.71352386474609 L 28.42229080200195 25.71352386474609 C 28.92627906799316 25.71352386474609 29.35732269287109 25.32889938354492 29.37721824645996 24.82491302490234 C 29.40374565124512 24.29439544677734 28.97933197021484 23.85672378540039 28.44881820678711 23.85672378540039 L 12.72570896148682 23.85672378540039 L 12.71907711029053 23.85672378540039 C 12.58644962310791 23.85672378540039 12.39413833618164 23.85672378540039 12.16866970062256 23.67104339599609 C 11.93656921386719 23.47210311889648 11.61826133728027 23.01453399658203 11.40605545043945 21.94687652587891 L 11.12090492248535 20.37522506713867 C 11.12090492248535 20.35533142089844 11.12753677368164 20.34206771850586 11.14742946624756 20.3354377746582 L 29.56289863586426 17.21866989135742 C 29.73531723022461 17.1921443939209 29.86794471740723 17.05288505554199 29.88784027099609 16.87383460998535 L 30.9488639831543 9.194645881652832 C 30.96212768554688 9.141592979431152 30.96212768554688 9.081910133361816 30.9488639831543 9.022228240966797 Z">
-						</path>
-					</svg>
-				</div>
-			</div>
-		</div>
-		<svg class="Ellipse_2_ig">
-			<ellipse id="Ellipse_2_ig" rx="12.5" ry="12.5" cx="12.5" cy="12.5">
-			</ellipse>
-		</svg>
-		<div id="n__ih">
-			<span>2</span>
-		</div>
+	<div id="n_30__b">
+		<span>₹330</span><br/>
 	</div>
 </div>
 </body>

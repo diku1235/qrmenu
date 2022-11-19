@@ -1,0 +1,637 @@
+.mediaViewInfo {
+	--web-view-name: Cart;
+	--web-view-id: Cart;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Cart;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Cart {
+	position: absolute;
+	width: 414px;
+	height: 1030px;
+	background: linear-gradient(180deg, rgba(81,165,195,1) 0%, rgba(204,201,126,1) 61.36%, rgba(255,177,125,1) 100%);
+	overflow: hidden;
+	--web-view-name: Cart;
+	--web-view-id: Cart;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_15 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 143px;
+	left: 0px;
+	top: 887px;
+}
+#Repeat_Grid_2 {
+	position: absolute;
+	width: 375px;
+	height: 718px;
+	left: 20px;
+	top: 50px;
+	overflow: hidden;
+}
+#Group {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 9px;
+	top: 6px;
+	overflow: visible;
+}
+#Component_5__2 {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_14 {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_14 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Cheeseburger {
+	position: absolute;
+	width: 84.4px;
+	height: 84.4px;
+	left: 20.3px;
+	top: 12.8px;
+	overflow: visible;
+}
+#Cheeseburger_v {
+	left: 119px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#n_30_ {
+	left: 291px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(223,0,0,1);
+}
+#Icon_awesome-plus-square {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-plus-square {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 163.25px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-minus-square {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-minus-square {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 119px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n_ {
+	left: 143px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(223,0,0,1);
+}
+#Group_ {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 9px;
+	top: 154px;
+	overflow: visible;
+}
+#Component_5__2_ {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_14_ {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_14_ {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Cheeseburger_ {
+	position: absolute;
+	width: 84.4px;
+	height: 84.4px;
+	left: 20.3px;
+	top: 12.8px;
+	overflow: visible;
+}
+#Cheeseburger_ba {
+	left: 119px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#n_30__ {
+	left: 291px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(223,0,0,1);
+}
+#Icon_awesome-plus-square_ {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-plus-square_ {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 163.25px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-minus-square_ {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-minus-square_ {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 119px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n__ {
+	left: 143px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(223,0,0,1);
+}
+#Group_ba {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 9px;
+	top: 302px;
+	overflow: visible;
+}
+#Component_5__2_ba {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_14_bb {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_14_bb {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Cheeseburger_bc {
+	position: absolute;
+	width: 84.4px;
+	height: 84.4px;
+	left: 20.3px;
+	top: 12.8px;
+	overflow: visible;
+}
+#Cheeseburger_bd {
+	left: 119px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#n_30__be {
+	left: 291px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(223,0,0,1);
+}
+#Icon_awesome-plus-square_bf {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-plus-square_bf {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 163.25px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-minus-square_bg {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-minus-square_bg {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 119px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n__bh {
+	left: 143px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(223,0,0,1);
+}
+#Group_bi {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 9px;
+	top: 450px;
+	overflow: visible;
+}
+#Component_5__2_bj {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_14_bk {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_14_bk {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Cheeseburger_bl {
+	position: absolute;
+	width: 84.4px;
+	height: 84.4px;
+	left: 20.3px;
+	top: 12.8px;
+	overflow: visible;
+}
+#Cheeseburger_bm {
+	left: 119px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#n_30__bn {
+	left: 291px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(223,0,0,1);
+}
+#Icon_awesome-plus-square_bo {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-plus-square_bo {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 163.25px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-minus-square_bp {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-minus-square_bp {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 119px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n__bq {
+	left: 143px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(223,0,0,1);
+}
+#Group_br {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 9px;
+	top: 598px;
+	overflow: visible;
+}
+#Component_5__2_bs {
+	position: absolute;
+	width: 357px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_14_bt {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_14_bt {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 375px;
+	height: 128px;
+	left: 0px;
+	top: 0px;
+}
+#Cheeseburger_bu {
+	position: absolute;
+	width: 84.4px;
+	height: 84.4px;
+	left: 20.3px;
+	top: 12.8px;
+	overflow: visible;
+}
+#Cheeseburger_bv {
+	left: 119px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#n_30__bw {
+	left: 291px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(223,0,0,1);
+}
+#Icon_awesome-plus-square_bx {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-plus-square_bx {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 163.25px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-minus-square_by {
+	fill: rgba(0,196,13,1);
+}
+.Icon_awesome-minus-square_by {
+	overflow: visible;
+	position: absolute;
+	width: 15.75px;
+	height: 15.75px;
+	left: 119px;
+	top: 64px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#n__bz {
+	left: 143px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(223,0,0,1);
+}
+#Component_8__2 {
+	position: absolute;
+	width: 303px;
+	height: 47px;
+	left: 56px;
+	top: 945px;
+	overflow: visible;
+}
+#Component_3__4 {
+	position: absolute;
+	width: 303px;
+	height: 47px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_13 {
+	fill: rgba(0,196,13,1);
+	stroke: rgba(0,196,13,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 303px;
+	height: 47px;
+	left: 0px;
+	top: 0px;
+}
+#CONFIRM {
+	left: 81px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Clash Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255,255,255,1);
+	text-transform: capitalize;
+}
+#Total {
+	left: 56px;
+	top: 901px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+#n_30__b {
+	left: 297px;
+	top: 900px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(223,0,0,1);
+}

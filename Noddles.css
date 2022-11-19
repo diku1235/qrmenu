@@ -1,0 +1,649 @@
+.mediaViewInfo {
+	--web-view-name: Noddles;
+	--web-view-id: Noddles;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Noddles;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Noddles_Class {
+	position: absolute;
+	width: 414px;
+	height: 1030px;
+	background: linear-gradient(180deg, rgba(81,165,195,1) 0%, rgba(204,201,126,1) 61.36%, rgba(255,177,125,1) 100%);
+	overflow: hidden;
+	--web-view-name: Noddles;
+	--web-view-id: Noddles;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Component_4__21_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 14px;
+	top: 56px;
+	overflow: visible;
+}
+.Group_4_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Component_2__1_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_8_Class {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_8 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	height: 304px;
+	left: 0px;
+	top: 0px;
+}
+.Classic_Hakka_Class {
+	left: 25px;
+	top: 173px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+.n_00__Class {
+	left: 25px;
+	top: 190px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(223,0,0,1);
+}
+.Component_3__1_Class {
+	position: absolute;
+	width: 154px;
+	height: 31px;
+	left: 16px;
+	top: 238px;
+	overflow: visible;
+	cursor: pointer;
+}
+.Rectangle_13_cg_Class {
+	fill: rgba(0,196,13,1);
+	stroke: rgba(0,196,13,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13_cg {
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_material-add-shopping-car_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-add-shopping-car {
+	overflow: visible;
+	position: absolute;
+	width: 21.96px;
+	height: 22.875px;
+	left: 14px;
+	top: 4.063px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Add_To_Cart_Class {
+	left: 50px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	text-transform: capitalize;
+}
+.Component_4__22_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 215px;
+	top: 56px;
+	overflow: visible;
+}
+.Group_4_ck_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Component_2__1_cl_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_8_cm_Class {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_8_cm {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	height: 304px;
+	left: 0px;
+	top: 0px;
+}
+.Chicken_Hakka_Class {
+	left: 25px;
+	top: 173px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+.n_50__Class {
+	left: 25px;
+	top: 190px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(223,0,0,1);
+}
+.Component_3__1_cp_Class {
+	position: absolute;
+	width: 154px;
+	height: 31px;
+	left: 16px;
+	top: 238px;
+	overflow: visible;
+}
+.Rectangle_13_cq_Class {
+	fill: rgba(0,196,13,1);
+	stroke: rgba(0,196,13,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13_cq {
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_material-add-shopping-car_cr_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-add-shopping-car_cr {
+	overflow: visible;
+	position: absolute;
+	width: 21.96px;
+	height: 22.875px;
+	left: 14px;
+	top: 4.063px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Add_To_Cart_cs_Class {
+	left: 50px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	text-transform: capitalize;
+}
+.Component_4__24_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 14px;
+	top: 364px;
+	overflow: visible;
+}
+.Group_4_cu_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Component_2__1_cv_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_8_cw_Class {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_8_cw {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	height: 304px;
+	left: 0px;
+	top: 0px;
+}
+.Veg_Chilli_Garlic_Class {
+	left: 25px;
+	top: 173px;
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+.n_50__cy_Class {
+	left: 25px;
+	top: 190px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(223,0,0,1);
+}
+.Component_3__1_cz_Class {
+	position: absolute;
+	width: 154px;
+	height: 31px;
+	left: 16px;
+	top: 238px;
+	overflow: visible;
+}
+.Rectangle_13_c_Class {
+	fill: rgba(0,196,13,1);
+	stroke: rgba(0,196,13,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13_c {
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_material-add-shopping-car_c_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-add-shopping-car_c {
+	overflow: visible;
+	position: absolute;
+	width: 21.96px;
+	height: 22.875px;
+	left: 14px;
+	top: 4.063px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Add_To_Cart_c_Class {
+	left: 50px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	text-transform: capitalize;
+}
+.classichakka_Class {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 127px;
+	height: 127.074px;
+	left: 42px;
+	top: 83px;
+	overflow: visible;
+}
+.Tandoori_Paneer_Class {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 127px;
+	height: 127.074px;
+	left: 244.5px;
+	top: 83px;
+	overflow: visible;
+}
+.Chicken_Supreme_Class {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 127px;
+	height: 127.074px;
+	left: 42px;
+	top: 387.926px;
+	overflow: visible;
+}
+.Component_4__25_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 215px;
+	top: 364px;
+	overflow: visible;
+}
+.Group_4_c_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Component_2__1_c_Class {
+	position: absolute;
+	width: 186px;
+	height: 286px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_8_c_Class {
+	fill: rgba(247,248,248,1);
+}
+.Rectangle_8_c {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	height: 304px;
+	left: 0px;
+	top: 0px;
+}
+.Street_Style_Class {
+	left: 25px;
+	top: 173px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	text-transform: capitalize;
+}
+.n_70__Class {
+	left: 25px;
+	top: 190px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Integral CF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(223,0,0,1);
+}
+.Component_3__1_dc_Class {
+	position: absolute;
+	width: 154px;
+	height: 31px;
+	left: 16px;
+	top: 238px;
+	overflow: visible;
+}
+.Rectangle_13_dd_Class {
+	fill: rgba(0,196,13,1);
+	stroke: rgba(0,196,13,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13_dd {
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	height: 31px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_material-add-shopping-car_de_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-add-shopping-car_de {
+	overflow: visible;
+	position: absolute;
+	width: 21.96px;
+	height: 22.875px;
+	left: 14px;
+	top: 4.063px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Add_To_Cart_df_Class {
+	left: 50px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	text-transform: capitalize;
+}
+.Only_Cheesy_Class {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 127px;
+	height: 127.074px;
+	left: 244.5px;
+	top: 387.926px;
+	overflow: visible;
+}
+.Component_7__7_Class {
+	position: absolute;
+	width: 66px;
+	height: 72px;
+	left: 329px;
+	top: 945px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Cart.html;
+	cursor: pointer;
+}
+.Component_6__1_Class {
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	left: 0px;
+	top: 6px;
+	overflow: visible;
+}
+.Group_3_Class {
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_1_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	height: 66px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_ionic-ios-cart_Class {
+	position: absolute;
+	width: 27.577px;
+	height: 25.471px;
+	left: 19.212px;
+	top: 20.264px;
+	overflow: visible;
+}
+.Path_1_Class {
+	fill: rgba(108,43,0,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 3.183px;
+	height: 3.183px;
+	left: 5.829px;
+	top: 22.288px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_2_Class {
+	fill: rgba(108,43,0,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 3.183px;
+	height: 3.183px;
+	left: 20.717px;
+	top: 22.288px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_3_Class {
+	fill: rgba(108,43,0,1);
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 27.577px;
+	height: 21.221px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ellipse_2_Class {
+	fill: rgba(255,0,0,1);
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	height: 25px;
+	left: 41px;
+	top: 0px;
+}
+.n__dq_Class {
+	left: 50px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
